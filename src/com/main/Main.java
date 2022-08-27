@@ -1,6 +1,8 @@
-package com;
+package com.main;
 
-import com.Car.Car;
+import com.car.Car;
+import com.employee.Employee;
+import com.package_1.SameName;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class Main {
         System.out.println(em1.getFullName());
         System.out.println("----------------");
 
-        com.package_1.SameName sn1 = new com.package_1.SameName();
+        SameName sn1 = new SameName();
         com.package_2.SameName sn2 = new com.package_2.SameName();
         sn1.greeting();
         sn2.greeting();
